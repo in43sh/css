@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+
+/* Layout */
+
+.panel > div {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.primary-header {
+  background-color: #555;
+}
+
+.primary-header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.primary-header nav .left {
+  background-color: blue;
+}
+
+.primary-header nav .right {
+  background-color: red;
+}
+
+.primary-content-wrap {
+  display: flex;
+  background-color: red;
+}
+
+aside {
+  width: 200px;
+  background-color: blue;
+}
+
+main {
+  flex: 1;
+  background-color: green;
+}
+
+
+/* Components */
+
+.user-image {
+  
+}
